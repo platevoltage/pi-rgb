@@ -2,7 +2,7 @@ import board
 import neopixel
 import time, psutil
 
-pixels = neopixel.NeoPixel(board.D18, 1)
+pixels = neopixel.NeoPixel(board.D18, 2)
 pixels.fill((0, 0, 0))
 oldLoad = 0;
 newLoad = 0;
